@@ -1,1 +1,3 @@
-Stack Bitnami:    Apache  (p4qvefc)
+Stacks Bitnami:
+1º) node.js
+2º) Apache
