@@ -2,6 +2,7 @@ Stacks Bitnami:
 1º) node.js
 2º) Apache
 
+Dia 24/08/2016
 Desde Bitnami nos pedia un Update del proyecto: "oliwon/bitnami (p4qvefc)". Lo hicimos y nos generó uno nuevo:
 "Node.js for oliwon/bitnami (la760r8)", dejandonos tambien el antiguo: "oliwon/bitnami (p4qvefc)"
 
@@ -10,3 +11,6 @@ En GitHub nos creo una nueva Branche con nombre: "stacksmith/update-dockerfile-l
 Git nos pide, si queremos, que el NodeJS-NEW lo unamos (merge) con con master. Le decimos que si y entonces el master coge los cambios del NodeJS-NEW.
 
 El propio Git nos dice que podemos borrar el NodeJS-NEW (si queremos) pues ya esta unido al master. Lo hacemos.
+
+Dia 25/08/2016
+Integramos con Travis-CI y hacemos el repositorio publico para que lo vea. Se añade el fichero .travis.yml
