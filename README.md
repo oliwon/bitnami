@@ -14,3 +14,7 @@ El propio Git nos dice que podemos borrar el NodeJS-NEW (si queremos) pues ya es
 
 Dia 25/08/2016
 Integramos con Travis-CI y hacemos el repositorio publico para que lo vea. Se añade el fichero .travis.yml
+
+Dia 04/11/2016
+Borramos p4qvefc de StackSmith
+Regeneramos avt4r0e y nos genera jq9f5rp  tanoto en Sack como en Git. Borramos avt4r0e en Stack pues ya tenemos jq9f5rp
