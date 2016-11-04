@@ -21,3 +21,5 @@ Borramos p4qvefc de StackSmith
 Regeneramos avt4r0e (Apache) y nos genera jq9f5rp actualizado tanto en Stack como en Git. Borramos avt4r0e en Stack pues ya tenemos jq9f5rp
 
 Regeneramos la760r8 (Node.js) y nos genera n0crsmy actualizadotanto en Stack como en Git. Borramos la760r8  en Stack pues ya tenemos n0crsmy
+
+Unimos el master con n0crsmy.  No unimos las otras ramas pues el Master es un Node.js y las otras Ramas son Apache
