@@ -1,28 +1,27 @@
 ## BUILDING
 ##   (from project root directory)
-##   $ docker build -t node-js-for-oliwon-bitnami .
+##   $ docker build -t apache-for-oliwon-bitnami .
 ##
 ## RUNNING
-##   $ docker run -p 3000:3000 node-js-for-oliwon-bitnami
+##   $ docker run -p 80:80 apache-for-oliwon-bitnami
 ##
 ## CONNECTING
 ##   Lookup the IP of your active docker host using:
 ##     $ docker-machine ip $(docker-machine active)
-##   Connect to the container at DOCKER_IP:3000
+##   Connect to the container at DOCKER_IP:80
 ##     replacing DOCKER_IP for the IP of your active docker host
+##
+## NOTES
+##   This is a prebuilt version of Apache.
+##   For more information and documentation visit:
+##     https://github.com/bitnami/bitnami-docker-apache
 
-FROM gcr.io/stacksmith-images/debian-buildpack:wheezy-r8
+FROM gcr.io/bitnami-containers/apache:2.4.23-r8
 
-MAINTAINER Bitnami <containers@bitnami.com>
-
-ENV STACKSMITH_STACK_ID="la760r8" \
-    STACKSMITH_STACK_NAME="Node.js for oliwon/bitnami" \
-    STACKSMITH_STACK_PRIVATE="1"
-
-RUN bitnami-pkg install node-6.4.0-0 --checksum 41d5a7b17ac1f175c02faef28d44eae0d158890d4fa9893ab24b5cc5f551486f
-
-ENV PATH=/opt/bitnami/node/bin:/opt/bitnami/python/bin:$PATH \
-    NODE_PATH=/opt/bitnami/node/lib/node_modules
+ENV STACKSMITH_STACK_ID="jq9f5rp" \
+    STACKSMITH_STACK_NAME="Apache for oliwon/bitnami" \
+    STACKSMITH_STACK_PRIVATE="1" \
+    BITNAMI_CONTAINER_ORIGIN="stacksmith"
 
 ## STACKSMITH-END: Modifications below this line will be unchanged when regenerating
 
