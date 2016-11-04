@@ -17,4 +17,5 @@ Integramos con Travis-CI y hacemos el repositorio publico para que lo vea. Se a√
 
 Dia 04/11/2016
 Borramos p4qvefc de StackSmith
-Regeneramos avt4r0e y nos genera jq9f5rp  tanoto en Sack como en Git. Borramos avt4r0e en Stack pues ya tenemos jq9f5rp
+Regeneramos avt4r0e (Apache) y nos genera jq9f5rp actualizado tanto en Stack como en Git. Borramos avt4r0e en Stack pues ya tenemos jq9f5rp
+Regeneramos la760r8 (Node.js) y nos genera n0crsmy actualizadotanto en Stack como en Git. Borramos la760r8  en Stack pues ya tenemos n0crsmy
